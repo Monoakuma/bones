@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{79d8dfb0-e9c8-4990-9644-e3710978e4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{96d5fa65-93e7-467e-b21f-299763fcafeb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferLayout.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simple.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="cub.shader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="uniform.shader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
